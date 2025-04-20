@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>File Sharing System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Welcome to File Sharing System</h2>
+  <button onclick="logout()">Logout</button>
+
+  <h3>Upload File</h3>
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" required><br>
+    <button type="submit">Upload</button>
+  </form>
+
+  <h3>All Files</h3>
+  <ul id="fileList">Loading...</ul>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* public/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  form, ul {
+    margin-top: 20px;
+  }
+  
+  input, button {
+    padding: 8px 12px;
+    margin: 5px 0;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #eee;
+    border: 1px solid #bbb;
+  }
+  
+  button:hover, a:hover {
+    background-color: #ddd;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077cc;
+    margin-left: 10px;
+  }
+  
